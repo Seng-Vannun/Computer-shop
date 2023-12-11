@@ -300,7 +300,7 @@
                         <div class="main_image">
                             @csrf
                             <img
-                                    src="{{$productjoin->image_url}}"
+                                    src="{{\Illuminate\Support\Facades\URL::to($productjoin->image_url)}}"
                                     id="main_product_image"
                                     width="350"
                             />
@@ -310,7 +310,7 @@
                                 <li>
                                     <img
                                         onclick="changeImage(this)"
-                                        src="{{ URL::to($productjoin->image_url)}}"
+                                        src="{{\Illuminate\Support\Facades\URL::to($productjoin->image_url)}}"
                                         width="70"
                                     />
                                 </li>
@@ -318,7 +318,7 @@
                                 <li>
                                     <img
                                             onclick="changeImage(this)"
-                                            src="{{$img}}"
+                                            src="{{\Illuminate\Support\Facades\URL::to($img)}}"
                                             width="70"
                                     />
                                 </li>
