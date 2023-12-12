@@ -398,7 +398,7 @@
               <img src="img/strix.jpg" alt="" class="img-fluid pe-3 w-25" />
               <div>
                 <p class="mb-0">Asus Laptop</p>
-                <span>$ 1020.00</span>
+                <span>$ 1030.00</span>
               </div>
             </div>
           </div>
